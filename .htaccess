@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^index.php$ Public/index.php  [L]
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php?p=$1
+DirectoryIndex Public/index.php
+ErrorDocument 404 https://miam/error/error404
