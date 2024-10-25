@@ -19,10 +19,10 @@ class Database extends PDO
     protected $db;
 
     // Informations de connexion
-    const DBHOST = 'localhost';
-    const DBUSER = 'root';
-    const DBPASS = '';
-    const DBNAME = 'miam';
+    const DBHOST = '*****';
+    const DBUSER = '*****';
+    const DBPASS = '*****';
+    const DBNAME = '*****';
     const CHARSET = ';charset=utf8';
 
     public function __construct()
